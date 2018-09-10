@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Main.css';
+import logo from '../../logo.svg';
 
 class Main extends Component {
 
@@ -15,8 +16,8 @@ class Main extends Component {
                         <p>
                             Download and run this project:
                         </p>
-                        <kbd>$ git clone </kbd><br/>
-                        <kbd>$ cd </kbd><br/>
+                        <kbd>$ git clone https://github.com/stupidly-logical/HelloWorldLetUsReact.git</kbd><br/>
+                        <kbd>$ cd HelloWorldLetUsReact</kbd><br/>
                         <kbd>$ npm start</kbd>
                     </div>
                     <footer className="footer">
